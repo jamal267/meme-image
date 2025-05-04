@@ -24,6 +24,6 @@ export default async function handler(req, res) {
   }
 
   // Redirect to actual image
-  res.writeHead(302, { Location: '/logger.png' });
+  res.writeHead(302, { Location: '/meme.jpg' });
   res.end();
 }
